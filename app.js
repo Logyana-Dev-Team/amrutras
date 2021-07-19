@@ -6,7 +6,7 @@ const passport = require("passport");
 const flash = require("connect-flash");
 const router = require("./routes/routes");
 
-require("./Connections/Mongoose");
+require("./connections/mongoose");
 
 const app = express();
 
