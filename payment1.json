@@ -1,0 +1,47 @@
+{
+    "entity": "event",
+    "account_id": "acc_DZmF6qHSvGcD4T",
+    "event": "payment.captured",
+    "contains": [
+        "payment"
+    ],
+    "payload": {
+        "payment": {
+            "entity": {
+                "id": "pay_GRxSJcVvnAlOW2",
+                "entity": "payment",
+                "amount": 103700,
+                "currency": "INR",
+                "status": "captured",
+                "order_id": "order_GRxRj9zyU80MpG",
+                "invoice_id": null,
+                "international": false,
+                "method": "upi",
+                "amount_refunded": 0,
+                "refund_status": null,
+                "captured": true,
+                "description": "Thank you for choosing Wagma",
+                "card_id": null,
+                "bank": null,
+                "wallet": null,
+                "vpa": "shubham@okaxis",
+                "email": "suryawanshi.shubham50@gmail.com",
+                "contact": "+918208446489",
+                "notes": [],
+                "fee": 2448,
+                "tax": 374,
+                "error_code": null,
+                "error_description": null,
+                "error_source": null,
+                "error_step": null,
+                "error_reason": null,
+                "acquirer_data": {
+                    "rrn": "765551650623",
+                    "upi_transaction_id": "63619C300A4DD50EB736656FF392023D"
+                },
+                "created_at": 1611232351
+            }
+        }
+    },
+    "created_at": 1611232351
+}

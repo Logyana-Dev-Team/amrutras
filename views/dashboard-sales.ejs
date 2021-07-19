@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta
+    http-equiv="content-type"
+    content="text/html;charset=utf-8"
+  /><!-- /Added by HTTrack -->
+  <head>
+    <meta charset="utf-8" />
+    <title>Amrutras | Sales</title>
+    <!-- SEO Meta Tags-->
+    <meta name="description" content="Amrutras - Aadesh Herbals" />
+    <meta
+      name="keywords"
+      content="bootstrap, shop, e-commerce, market, modern, responsive,  business, mobile, bootstrap 4, html5, css3, jquery, js, gallery, slider, touch, creative, clean"
+    />
+    <meta name="author" content="Createx Studio" />
+    <!-- Viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Favicon and Touch Icons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="mask-icon" color="#fe6a6a" href="safari-pinned-tab.svg" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- Vendor Styles including: Font Icons, Plugins, etc.-->
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="vendor/simplebar/dist/simplebar.min.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="vendor/tiny-slider/dist/tiny-slider.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="vendor/chartist/dist/chartist.min.css"
+    />
+    <!-- Main Theme Styles + Bootstrap-->
+    <link rel="stylesheet" media="screen" href="css/theme.min.css" />
+
+    <script
+      src="https://kit.fontawesome.com/a71853c901.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google Tag Manager-->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "../www.googletagmanager.com/gtm5445.html?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-WKV3GT5");
+    </script>
+  </head>
+  <!-- Body-->
+  <body class="toolbar-enabled">
+    <!-- Google Tag Manager (noscript)-->
+    <noscript>
+      <iframe
+        src="http://www.googletagmanager.com/ns.html?id=GTM-WKV3GT5"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe>
+    </noscript>
+    <!-- Sign in / sign up modal-->
+    <div class="modal fade" id="signin-modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <ul class="nav nav-tabs card-header-tabs" role="tablist">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  href="#signin-tab"
+                  data-toggle="tab"
+                  role="tab"
+                  aria-selected="true"
+                  ><i class="czi-unlocked mr-2 mt-n1"></i>Sign in</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#signup-tab"
+                  data-toggle="tab"
+                  role="tab"
+                  aria-selected="false"
+                  ><i class="czi-user mr-2 mt-n1"></i>Sign up</a
+                >
+              </li>
+            </ul>
+            <button
+              class="close"
+              type="button"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body tab-content py-4">
+            <form
+              class="needs-validation tab-pane fade show active"
+              autocomplete="off"
+              novalidate
+              id="signin-tab"
+            >
+              <div class="form-group">
+                <label for="si-email">Email address</label>
+                <input
+                  class="form-control"
+                  type="email"
+                  id="si-email"
+                  placeholder="johndoe@example.com"
+                  required
+                />
+                <div class="invalid-feedback">
+                  Please provide a valid email address.
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="si-password">Password</label>
+                <div class="password-toggle">
+                  <input
+                    class="form-control"
+                    type="password"
+                    id="si-password"
+                    required
+                  />
+                  <label class="password-toggle-btn">
+                    <input class="custom-control-input" type="checkbox" /><i
+                      class="czi-eye password-toggle-indicator"
+                    ></i
+                    ><span class="sr-only">Show password</span>
+                  </label>
+                </div>
+              </div>
+              <div class="form-group d-flex flex-wrap justify-content-between">
+                <div class="custom-control custom-checkbox mb-2">
+                  <input
+                    class="custom-control-input"
+                    type="checkbox"
+                    id="si-remember"
+                  />
+                  <label class="custom-control-label" for="si-remember"
+                    >Remember me</label
+                  >
+                </div>
+                <a class="font-size-sm" href="#">Forgot password?</a>
+              </div>
+              <button
+                class="btn btn-primary btn-block btn-shadow"
+                type="submit"
+              >
+                Sign in
+              </button>
+            </form>
+            <form
+              class="needs-validation tab-pane fade"
+              autocomplete="off"
+              novalidate
+              id="signup-tab"
+            >
+              <div class="form-group">
+                <label for="su-name">Full name</label>
+                <input
+                  class="form-control"
+                  type="text"
+                  id="su-name"
+                  placeholder="John Doe"
+                  required
+                />
+                <div class="invalid-feedback">Please fill in your name.</div>
+              </div>
+              <div class="form-group">
+                <label for="su-email">Email address</label>
+                <input
+                  class="form-control"
+                  type="email"
+                  id="su-email"
+                  placeholder="johndoe@example.com"
+                  required
+                />
+                <div class="invalid-feedback">
+                  Please provide a valid email address.
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="su-password">Password</label>
+                <div class="password-toggle">
+                  <input
+                    class="form-control"
+                    type="password"
+                    id="su-password"
+                    required
+                  />
+                  <label class="password-toggle-btn">
+                    <input class="custom-control-input" type="checkbox" /><i
+                      class="czi-eye password-toggle-indicator"
+                    ></i
+                    ><span class="sr-only">Show password</span>
+                  </label>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="su-password-confirm">Confirm password</label>
+                <div class="password-toggle">
+                  <input
+                    class="form-control"
+                    type="password"
+                    id="su-password-confirm"
+                    required
+                  />
+                  <label class="password-toggle-btn">
+                    <input class="custom-control-input" type="checkbox" /><i
+                      class="czi-eye password-toggle-indicator"
+                    ></i
+                    ><span class="sr-only">Show password</span>
+                  </label>
+                </div>
+              </div>
+              <button
+                class="btn btn-primary btn-block btn-shadow"
+                type="submit"
+              >
+                Sign up
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Navbar-->
+    <!-- Navbar Marketplace-->
+    <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page.-->
+    <header class="bg-light box-shadow-sm navbar-sticky">
+      <div class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a
+            class="navbar-brand d-none d-sm-block mr-4 order-lg-1"
+            href="/"
+            style="min-width: 7rem"
+            ><img width="142" src="img/logo-dark.png" alt="Amrutras" /></a
+          ><a
+            class="navbar-brand d-sm-none mr-2 order-lg-1"
+            href="/"
+            style="min-width: 4.625rem"
+            ><img width="74" src="img/logo-icon.png" alt="Amrutras"
+          /></a>
+          <!-- Toolbar-->
+          <div class="navbar-toolbar d-flex align-items-center order-lg-3">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarCollapse"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-tool dropdown ml-2">
+              <a
+                class="navbar-tool-icon-box border dropdown-toggle"
+                href="dashboard-sales"
+                ><img
+                  width="32"
+                  src="img/Amrutras.png"
+                  alt="Createx Studio" /></a
+              ><a class="navbar-tool-text ml-n1" href="dashboard-sales"
+                ><small>AmrutRas | Aadesh Herbals</small></a
+              >
+              <div
+                class="dropdown-menu dropdown-menu-right"
+                style="min-width: 14rem"
+              >
+                <h6 class="dropdown-header">Admin Dashboard</h6>
+                <a
+                  class="dropdown-item d-flex align-items-center"
+                  href="/dashboard-sales"
+                  ><i class="fas fa-rupee-sign opacity-60 mr-2"></i>Sales</a
+                ><a
+                  class="dropdown-item d-flex align-items-center"
+                  href="/dashboard-products"
+                  ><i class="czi-package opacity-60 mr-2"></i>Products</a
+                ><a
+                  class="dropdown-item d-flex align-items-center"
+                  href="/dashboard-add-new-product"
+                  ><i class="czi-cloud-upload opacity-60 mr-2"></i>Add New
+                  Product</a
+                ><a
+                  class="dropdown-item d-flex align-items-center"
+                  href="/dashboard-orders"
+                  ><i class="czi-currency-exchange opacity-60 mr-2"></i
+                  >Orders</a
+                >
+                <div class="dropdown-divider"></div>
+                <a
+                  class="dropdown-item d-flex align-items-center"
+                  href="/admin-logout"
+                  ><i class="czi-sign-out opacity-60 mr-2"></i>Sign Out</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Search collapse-->
+      <div class="search-box collapse" id="searchBox">
+        <div class="card pt-2 pb-4 border-0 rounded-0">
+          <div class="container">
+            <div class="input-group-overlay">
+              <div class="input-group-prepend-overlay">
+                <span class="input-group-text"><i class="czi-search"></i></span>
+              </div>
+              <input
+                class="form-control prepended-form-control"
+                type="text"
+                placeholder="Search marketplace"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Page title-->
+    <!-- Page Content-->
+    <!-- Dashboard header-->
+    <div class="page-title-overlap bg-accent pt-4">
+      <div
+        class="
+          container
+          d-flex
+          flex-wrap flex-sm-nowrap
+          justify-content-center justify-content-sm-between
+          align-items-center
+          pt-2
+        "
+      >
+        <div class="media media-ie-fix align-items-center pb-3">
+          <div
+            class="img-thumbnail rounded-circle position-relative"
+            style="width: 6.375rem"
+          >
+            <img
+              class="rounded-circle"
+              src="img/Amrutras.png"
+              alt="Createx Studio"
+            />
+          </div>
+          <div class="media-body pl-3">
+            <h3 class="text-light font-size-lg mb-0">
+              AmrutRas | Aadesh Herbals
+            </h3>
+            <span class="d-block text-light font-size-ms opacity-60 py-1"
+              >Admin Dashboard</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mb-5 pb-3">
+      <div class="bg-light box-shadow-lg rounded-lg overflow-hidden">
+        <div class="row">
+          <!-- Sidebar-->
+          <aside class="col-lg-4">
+            <!-- Account menu toggler (hidden on screens larger 992px)-->
+            <div class="d-block d-lg-none p-4">
+              <a
+                class="btn btn-outline-accent d-block"
+                href="#account-menu"
+                data-toggle="collapse"
+                ><i class="czi-menu mr-2"></i>Account menu</a
+              >
+            </div>
+            <!-- Actual menu-->
+            <div class="cz-sidebar-static h-100 p-0">
+              <div
+                class="secondary-nav collapse border-right"
+                id="account-menu"
+              >
+                <div class="bg-secondary p-4">
+                  <h3 class="font-size-sm mb-0 text-muted">Admin Dashboard</h3>
+                </div>
+                <ul class="list-unstyled mb-0">
+                  <li class="border-bottom mb-0">
+                    <a
+                      class="
+                        nav-link-style
+                        d-flex
+                        align-items-center
+                        px-4
+                        py-3
+                        active
+                      "
+                      href="/dashboard-sales"
+                      ><i class="fas fa-rupee-sign opacity-60 mr-2"></i
+                      >Sales<span class="font-size-sm text-muted ml-auto"
+                        >₹1,375.00</span
+                      ></a
+                    >
+                  </li>
+                  <li class="border-bottom mb-0">
+                    <a
+                      class="nav-link-style d-flex align-items-center px-4 py-3"
+                      href="/dashboard-products"
+                      ><i class="czi-package opacity-60 mr-2"></i>Products<span
+                        class="font-size-sm text-muted ml-auto"
+                        >5</span
+                      ></a
+                    >
+                  </li>
+                  <li class="border-bottom mb-0">
+                    <a
+                      class="nav-link-style d-flex align-items-center px-4 py-3"
+                      href="/dashboard-add-new-product"
+                      ><i class="czi-cloud-upload opacity-60 mr-2"></i>Add New
+                      Product</a
+                    >
+                  </li>
+                  <li class="border-bottom mb-0">
+                    <a
+                      class="nav-link-style d-flex align-items-center px-4 py-3"
+                      href="/dashboard-orders"
+                      ><i class="czi-currency-exchange opacity-60 mr-2"></i
+                      >Orders</a
+                    >
+                  </li>
+                  <li class="mb-0">
+                    <a
+                      class="nav-link-style d-flex align-items-center px-4 py-3"
+                      href="/admin-logout"
+                      ><i class="czi-sign-out opacity-60 mr-2"></i>Sign out</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </aside>
+          <!-- Content-->
+          <section class="col-lg-8 pt-lg-4 pb-4 mb-3">
+            <div class="pt-2 px-4 pl-lg-0 pr-xl-5">
+              <h2 class="h3 py-2 text-center text-sm-left">
+                Your sales / earnings
+              </h2>
+              <div class="row mx-n2 pt-2">
+                <div class="col-md-4 col-sm-6 px-2 mb-4">
+                  <div class="bg-secondary h-100 rounded-lg p-4 text-center">
+                    <h3 class="font-size-sm text-muted">
+                      Earnings (before taxes)
+                    </h3>
+                    <p class="h2 mb-2">₹1,690.<small>50</small></p>
+                    <p class="font-size-ms text-muted mb-0">
+                      Sales 8/1/2019 - 8/15/2019
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6 px-2 mb-4">
+                  <div class="bg-secondary h-100 rounded-lg p-4 text-center">
+                    <h3 class="font-size-sm text-muted">Your balance</h3>
+                    <p class="h2 mb-2">₹1,375.<small>00</small></p>
+                    <p class="font-size-ms text-muted mb-0">
+                      To be paid on 8/15/2019
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-12 px-2 mb-4">
+                  <div class="bg-secondary h-100 rounded-lg p-4 text-center">
+                    <h3 class="font-size-sm text-muted">Lifetime earnings</h3>
+                    <p class="h2 mb-2">₹9,156.<small>74</small></p>
+                    <p class="font-size-ms text-muted mb-0">
+                      Based on list price
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="row mx-n2">
+                <div class="col-lg-8 px-2">
+                  <div class="card mb-4">
+                    <div class="card-body">
+                      <h3 class="font-size-sm pb-3 mb-3 border-bottom">
+                        Sales value, USD
+                        <span class="font-weight-normal font-size-xs text-muted"
+                          >(Past 2 weeks)</span
+                        >
+                      </h3>
+                      <div
+                        class="ct-chart ct-perfect-fourth"
+                        data-line-chart='{"labels": ["22 Jul", "", "24 Jul", "", "26 Jul", "", "28 Jul", "", "30 Jul", "", "01 Aug", "", "03 Aug", "", "05 Aug"], "series": [[0, 100, 200, 150, 50, 0, 0, 50, 0, 50, 50, 50, 0, 100, 0]]}'
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="card mb-4 mb-lg-2">
+                    <div class="card-body">
+                      <h3 class="font-size-sm pb-3 mb-3 border-bottom">
+                        Order count
+                        <span class="font-weight-normal font-size-xs text-muted"
+                          >(Past 2 weeks)</span
+                        >
+                      </h3>
+                      <div
+                        class="ct-chart ct-perfect-fourth"
+                        data-line-chart='{"labels": ["22 Jul", "", "24 Jul", "", "26 Jul", "", "28 Jul", "", "30 Jul", "", "01 Aug", "", "03 Aug", "", "05 Aug"], "series": [[0, 2, 4, 3, 1, 0, 0, 1, 0, 1, 1, 1, 0, 2, 0]]}'
+                        data-options='{"axisY": {"onlyInteger": true}}'
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <!-- Footer-->
+    <!-- Footer-->
+    <footer class="bg-dark pt-5">
+      <!-- Second row-->
+      <div class="pt-5 bg-darker">
+        <div class="container">
+          <div
+            class="widget w-100 mb-4 pb-3 text-center mx-auto"
+            style="max-width: 28rem"
+          >
+            <a class="d-inline-block align-middle" href="#"
+              ><img
+                class="d-block mb-4"
+                width="117"
+                src="img/footer-logo-light.png"
+                alt="Amrutras"
+            /></a>
+            <h3 class="widget-title text-light pb-1">
+              Subscribe to newsletter
+            </h3>
+            <form
+              class="cz-subscribe-form validate"
+              action="https://studio.us12.list-manage.com/subscribe/post?u=c7103e2c981361a6639545bd5&amp;amp;id=29ca296126"
+              method="post"
+              name="mc-embedded-subscribe-form"
+              target="_blank"
+              novalidate
+            >
+              <div class="input-group input-group-overlay flex-nowrap">
+                <div class="input-group-prepend-overlay">
+                  <span class="input-group-text text-muted font-size-base"
+                    ><i class="czi-mail"></i
+                  ></span>
+                </div>
+                <input
+                  class="form-control prepended-form-control"
+                  type="email"
+                  name="EMAIL"
+                  placeholder="Your email"
+                  required
+                />
+                <div class="input-group-append">
+                  <button
+                    class="btn btn-primary"
+                    type="submit"
+                    name="subscribe"
+                  >
+                    Subscribe*
+                  </button>
+                </div>
+              </div>
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px" aria-hidden="true">
+                <input
+                  class="cz-subscribe-form-antispam"
+                  type="text"
+                  name="b_c7103e2c981361a6639545bd5_29ca296126"
+                  tabindex="-1"
+                />
+              </div>
+              <small class="form-text text-light opacity-50"
+                >*Receive early discount offers, updates and new products
+                info.</small
+              >
+              <div class="subscribe-status"></div>
+            </form>
+          </div>
+          <hr class="hr-light pb-4 mb-3" />
+          <div class="d-md-flex justify-content-between">
+            <div
+              class="
+                pb-4
+                font-size-xs
+                text-light
+                opacity-50
+                text-center text-md-left
+              "
+            >
+              © All rights reserved. Made by
+              <a
+                class="text-light"
+                href="https://logyana.com/"
+                target="_blank"
+                rel="noopener"
+                >Logyana Solutions</a
+              >
+            </div>
+            <div class="widget widget-links widget-light pb-4">
+              <ul
+                class="
+                  widget-list
+                  d-flex
+                  flex-wrap
+                  justify-content-center justify-content-md-start
+                "
+              >
+                <li class="widget-list-item ml-4">
+                  <a class="widget-list-link font-size-ms" href="#"
+                    >Help Center</a
+                  >
+                </li>
+                <li class="widget-list-item ml-4">
+                  <a class="widget-list-link font-size-ms" href="#"
+                    >Affiliates</a
+                  >
+                </li>
+                <li class="widget-list-item ml-4">
+                  <a class="widget-list-link font-size-ms" href="#">Support</a>
+                </li>
+                <li class="widget-list-item ml-4">
+                  <a class="widget-list-link font-size-ms" href="#"
+                    >Terms &amp; Conditions</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Toolbar for handheld devices-->
+    <div class="cz-handheld-toolbar">
+      <div class="d-table table-fixed w-100">
+        <a
+          class="d-table-cell cz-handheld-toolbar-item"
+          href="account-wishlist.html"
+          ><span class="cz-handheld-toolbar-icon"
+            ><i class="czi-heart"></i></span
+          ><span class="cz-handheld-toolbar-label">Wishlist</span></a
+        ><a
+          class="d-table-cell cz-handheld-toolbar-item"
+          href="#navbarCollapse"
+          data-toggle="collapse"
+          onclick="window.scrollTo(0, 0)"
+          ><span class="cz-handheld-toolbar-icon"><i class="czi-menu"></i></span
+          ><span class="cz-handheld-toolbar-label">Menu</span></a
+        ><a class="d-table-cell cz-handheld-toolbar-item" href="shop-cart.html"
+          ><span class="cz-handheld-toolbar-icon"
+            ><i class="czi-cart"></i
+            ><span class="badge badge-primary badge-pill ml-1">4</span></span
+          ><span class="cz-handheld-toolbar-label">₹265.00</span></a
+        >
+      </div>
+    </div>
+    <!-- Back To Top Button--><a class="btn-scroll-top" href="#top" data-scroll
+      ><span class="btn-scroll-top-tooltip text-muted font-size-sm mr-2"
+        >Top</span
+      ><i class="btn-scroll-top-icon czi-arrow-up"> </i
+    ></a>
+    <!-- Vendor scrits: js libraries and plugins-->
+    <script src="vendor/jquery/dist/jquery.slim.min.js"></script>
+    <script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/bs-custom-file-input/dist/bs-custom-file-input.min.js"></script>
+    <script src="vendor/simplebar/dist/simplebar.min.js"></script>
+    <script src="vendor/tiny-slider/dist/min/tiny-slider.js"></script>
+    <script src="vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="vendor/chartist/dist/chartist.min.js"></script>
+    <!-- Main theme script-->
+    <script src="js/theme.min.js"></script>
+  </body>
+</html>

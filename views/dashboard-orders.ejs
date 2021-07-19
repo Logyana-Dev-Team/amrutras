@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <head>
+    <meta charset="utf-8" />
+    <title>Amrutras | Payouts</title>
+    <!-- SEO Meta Tags-->
+    <meta name="description" content="Amrutras - Aadesh Herbals" />
+    <meta
+      name="keywords"
+      content="bootstrap, shop, e-commerce, market, modern, responsive,  business, mobile, bootstrap 4, html5, css3, jquery, js, gallery, slider, touch, creative, clean"
+    />
+    <meta name="author" content="Createx Studio" />
+    <!-- Viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Favicon and Touch Icons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="mask-icon" color="#fe6a6a" href="safari-pinned-tab.svg" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- Vendor Styles including: Font Icons, Plugins, etc.-->
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="vendor/simplebar/dist/simplebar.min.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="vendor/tiny-slider/dist/tiny-slider.css"
+    />
+    <!-- Main Theme Styles + Bootstrap-->
+    <link rel="stylesheet" media="screen" href="css/theme.min.css" />
+    <script
+      src="https://kit.fontawesome.com/a71853c901.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google Tag Manager-->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "../www.googletagmanager.com/gtm5445.html?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-WKV3GT5");
+    </script>
+  </head>
+  <!-- Body-->
+  <body class="toolbar-enabled">
+    <!-- Google Tag Manager (noscript)-->
+    <noscript>
+      <iframe
+        src="http://www.googletagmanager.com/ns.html?id=GTM-WKV3GT5"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe>
+    </noscript>
+    <header class="bg-light box-shadow-sm navbar-sticky">
+      <div class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a
+            class="navbar-brand d-none d-sm-block mr-4 order-lg-1"
+            href="/"
+            style="min-width: 7rem"
+            ><img width="142" src="img/logo-dark.png" alt="Amrutras" /></a
+          ><a
+            class="navbar-brand d-sm-none mr-2 order-lg-1"
+            href="/"
+            style="min-width: 4.625rem"
+            ><img width="74" src="img/logo-icon.png" alt="Amrutras"
+          /></a>
+          <!-- Toolbar-->
+          <div class="navbar-toolbar d-flex align-items-center order-lg-3">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarCollapse"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-tool dropdown ml-2">
+              <a
+                class="navbar-tool-icon-box border dropdown-toggle"
+                href="dashboard-sales"
+                ><img
+                  width="32"
+                  src="img/marketplace/account/avatar-sm.png"
+                  alt="Createx Studio" /></a
+              ><a class="navbar-tool-text ml-n1" href="dashboard-sales"
+                ><small>Vatsalya Bandh Foundation.</small>₹1,375.00</a
+              >
+              <div
+                class="dropdown-menu dropdown-menu-right"
+                style="min-width: 14rem"
+              >
+                <h6 class="dropdown-header">Admin Dashboard</h6>
+                <a
+                  class="dropdown-item d-flex align-items-center"
+                  href="/dashboard-sales"
+                  ><i class="fas fa-rupee-sign opacity-60 mr-2"></i>Sales<span
+                    class="font-size-xs text-muted ml-auto"
+                    >₹1,375.00</span
+                  ></a
+                ><a
+                  class="dropdown-item d-flex align-items-center"
+                  href="/dashboard-products"
+                  ><i class="czi-package opacity-60 mr-2"></i>Products<span
+                    class="font-size-xs text-muted ml-auto"
+                    >5</span
+                  ></a
+                ><a
+                  class="dropdown-item d-flex align-items-center"
+                  href="/dashboard-add-new-product"
+                  ><i class="czi-cloud-upload opacity-60 mr-2"></i>Add New
+                  Product</a
+                ><a
+                  class="dropdown-item d-flex align-items-center"
+                  href="/dashboard-payouts"
+                  ><i class="czi-currency-exchange opacity-60 mr-2"></i
+                  >Payouts</a
+                >
+                <div class="dropdown-divider"></div>
+                <a
+                  class="dropdown-item d-flex align-items-center"
+                  href="/admin-logout"
+                  ><i class="czi-sign-out opacity-60 mr-2"></i>Sign Out</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Search collapse-->
+      <div class="search-box collapse" id="searchBox">
+        <div class="card pt-2 pb-4 border-0 rounded-0">
+          <div class="container">
+            <div class="input-group-overlay">
+              <div class="input-group-prepend-overlay">
+                <span class="input-group-text"><i class="czi-search"></i></span>
+              </div>
+              <input
+                class="form-control prepended-form-control"
+                type="text"
+                placeholder="Search marketplace"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="page-title-overlap bg-accent pt-4">
+      <div
+        class="
+          container
+          d-flex
+          flex-wrap flex-sm-nowrap
+          justify-content-center justify-content-sm-between
+          align-items-center
+          pt-2
+        "
+      >
+        <div class="media media-ie-fix align-items-center pb-3">
+          <div
+            class="img-thumbnail rounded-circle position-relative"
+            style="width: 6.375rem"
+          >
+            <img
+              class="rounded-circle"
+              src="img/marketplace/account/avatar.png"
+              alt="Createx Studio"
+            />
+          </div>
+          <div class="media-body pl-3">
+            <h3 class="text-light font-size-lg mb-0">
+              Vatsalya Bandh Foundation
+            </h3>
+            <span class="d-block text-light font-size-ms opacity-60 py-1"
+              >Member since November 2017</span
+            >
+          </div>
+        </div>
+        <div class="d-flex">
+          <div class="text-sm-right mr-5">
+            <div class="text-light font-size-base">Total sales</div>
+            <h3 class="text-light">426</h3>
+          </div>
+          <div class="text-sm-right">
+            <div class="text-light font-size-base">Seller rating</div>
+            <div class="star-rating">
+              <i class="sr-star czi-star-filled active"></i
+              ><i class="sr-star czi-star-filled active"></i
+              ><i class="sr-star czi-star-filled active"></i
+              ><i class="sr-star czi-star-filled active"></i
+              ><i class="sr-star czi-star"></i>
+            </div>
+            <div class="text-light opacity-60 font-size-xs">
+              Based on 98 reviews
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mb-5 pb-3">
+      <div class="bg-light box-shadow-lg rounded-lg overflow-hidden">
+        <div class="row">
+          <!-- Sidebar-->
+          <aside class="col-lg-3">
+            <!-- Account menu toggler (hidden on screens larger 992px)-->
+            <div class="d-block d-lg-none p-4">
+              <a
+                class="btn btn-outline-accent d-block"
+                href="#account-menu"
+                data-toggle="collapse"
+                ><i class="czi-menu mr-2"></i>Account menu</a
+              >
+            </div>
+            <!-- Actual menu-->
+            <div class="cz-sidebar-static h-100 p-0">
+              <div
+                class="secondary-nav collapse border-right"
+                id="account-menu"
+              >
+                <div class="bg-secondary p-4">
+                  <h3 class="font-size-sm mb-0 text-muted">Admin Dashboard</h3>
+                </div>
+                <ul class="list-unstyled mb-0">
+                  <li class="border-bottom mb-0">
+                    <a
+                      class="nav-link-style d-flex align-items-center px-4 py-3"
+                      href="/dashboard-sales"
+                      ><i class="fas fa-rupee-sign opacity-60 mr-2"></i
+                      >Sales<span class="font-size-sm text-muted ml-auto"
+                        >₹1,375.00</span
+                      ></a
+                    >
+                  </li>
+                  <li class="border-bottom mb-0">
+                    <a
+                      class="nav-link-style d-flex align-items-center px-4 py-3"
+                      href="/dashboard-products"
+                      ><i class="czi-package opacity-60 mr-2"></i>Products<span
+                        class="font-size-sm text-muted ml-auto"
+                        >5</span
+                      ></a
+                    >
+                  </li>
+                  <li class="border-bottom mb-0">
+                    <a
+                      class="nav-link-style d-flex align-items-center px-4 py-3"
+                      href="/dashboard-add-new-product"
+                      ><i class="czi-cloud-upload opacity-60 mr-2"></i>Add New
+                      Product</a
+                    >
+                  </li>
+                  <li class="border-bottom mb-0">
+                    <a
+                      class="
+                        nav-link-style
+                        d-flex
+                        align-items-center
+                        px-4
+                        py-3
+                        active
+                      "
+                      href="/dashboard-payouts"
+                      ><i class="czi-currency-exchange opacity-60 mr-2"></i
+                      >Payouts</a
+                    >
+                  </li>
+                  <li class="mb-0">
+                    <a
+                      class="nav-link-style d-flex align-items-center px-4 py-3"
+                      href="/admin-logout"
+                      ><i class="czi-sign-out opacity-60 mr-2"></i>Sign out</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </aside>
+          <!-- Content-->
+          <section class="col-lg-9 pt-lg-4 pb-4 mb-3">
+            <div class="pt-2 px-4 pl-lg-0 pr-xl-5">
+              <h3 class="h5 pb-2">Orders</h3>
+              <div class="table-responsive">
+                <table class="table table-fixed font-size-sm mb-0">
+                  <thead>
+                    <tr>
+                      <th>Customer Name</th>
+                      <th>Address</th>
+                      <th>Mobile No.</th>
+                      <th>Amount</th>
+                      <th>Delivery Charges Paid</th>
+                      <th>Subtotal</th>
+                      <th>Payout method</th>
+                      <th>Date processed</th>
+                      <th>Delivery Partner Choosed</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <% order.forEach(order => { %>
+                    <tr>
+                      <td><%= order.address[0].name %></td>
+                      <td><%= order.address[0].address1 %></td>
+                      <td><%= order.address[0].mobile %></td>
+                      <td>
+                        ₹ <%= order.cart.totalCost - order.cart.deliveryCharges
+                        %>.<small>00</small>
+                      </td>
+                      <td>
+                        ₹ <%= order.cart.deliveryCharges %>.<small>00</small>
+                      </td>
+                      <td>₹ <%= order.cart.totalCost %>.<small>00</small></td>
+                      <td>RazorPay</td>
+                      <td><%= order.createdAt.toUTCString() %></td>
+                      <td><%= order.companyName %></td>
+                    </tr>
+                    <% }); %>
+                  </tbody>
+                </table>
+              </div>
+              <hr class="mb-grid-gutter" />
+              <!-- Pagination-->
+              <nav
+                class="
+                  d-md-flex
+                  justify-content-between
+                  align-items-center
+                  text-center text-md-left
+                "
+                aria-label="Page navigation"
+              >
+                <div class="d-md-flex align-items-center w-100">
+                  <span class="font-size-sm text-muted mr-md-3"
+                    >Showing 10 of 52 records</span
+                  >
+                  <div
+                    class="progress w-100 my-3 mx-auto mx-md-0"
+                    style="max-width: 10rem; height: 4px"
+                  >
+                    <div
+                      class="progress-bar"
+                      role="progressbar"
+                      style="width: 20%"
+                      aria-valuenow="20"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <button class="btn btn-outline-primary btn-sm" type="button">
+                  More records
+                </button>
+              </nav>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <!-- Footer-->
+    <!-- Footer-->
+    <footer class="bg-dark pt-5">
+      <!-- Second row-->
+      <div class="pt-5 bg-darker">
+        <div class="container">
+          <div
+            class="widget w-100 mb-4 pb-3 text-center mx-auto"
+            style="max-width: 28rem"
+          >
+            <a class="d-inline-block align-middle" href="#"
+              ><img
+                class="d-block mb-4"
+                width="117"
+                src="img/footer-logo-light.png"
+                alt="Amrutras"
+            /></a>
+            <h3 class="widget-title text-light pb-1">
+              Subscribe to newsletter
+            </h3>
+            <form
+              class="cz-subscribe-form validate"
+              action="https://studio.us12.list-manage.com/subscribe/post?u=c7103e2c981361a6639545bd5&amp;amp;id=29ca296126"
+              method="post"
+              name="mc-embedded-subscribe-form"
+              target="_blank"
+              novalidate
+            >
+              <div class="input-group input-group-overlay flex-nowrap">
+                <div class="input-group-prepend-overlay">
+                  <span class="input-group-text text-muted font-size-base"
+                    ><i class="czi-mail"></i
+                  ></span>
+                </div>
+                <input
+                  class="form-control prepended-form-control"
+                  type="email"
+                  name="EMAIL"
+                  placeholder="Your email"
+                  required
+                />
+                <div class="input-group-append">
+                  <button
+                    class="btn btn-primary"
+                    type="submit"
+                    name="subscribe"
+                  >
+                    Subscribe*
+                  </button>
+                </div>
+              </div>
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px" aria-hidden="true">
+                <input
+                  class="cz-subscribe-form-antispam"
+                  type="text"
+                  name="b_c7103e2c981361a6639545bd5_29ca296126"
+                  tabindex="-1"
+                />
+              </div>
+              <small class="form-text text-light opacity-50"
+                >*Receive early discount offers, updates and new products
+                info.</small
+              >
+              <div class="subscribe-status"></div>
+            </form>
+          </div>
+          <hr class="hr-light pb-4 mb-3" />
+          <div class="d-md-flex justify-content-between">
+            <div
+              class="
+                pb-4
+                font-size-xs
+                text-light
+                opacity-50
+                text-center text-md-left
+              "
+            >
+              © All rights reserved. Made by
+              <a
+                class="text-light"
+                href="https://logyana.com/"
+                target="_blank"
+                rel="noopener"
+                >Logyana Solutions</a
+              >
+            </div>
+            <div class="widget widget-links widget-light pb-4">
+              <ul
+                class="
+                  widget-list
+                  d-flex
+                  flex-wrap
+                  justify-content-center justify-content-md-start
+                "
+              >
+                <li class="widget-list-item ml-4">
+                  <a class="widget-list-link font-size-ms" href="#"
+                    >Help Center</a
+                  >
+                </li>
+                <li class="widget-list-item ml-4">
+                  <a class="widget-list-link font-size-ms" href="#"
+                    >Affiliates</a
+                  >
+                </li>
+                <li class="widget-list-item ml-4">
+                  <a class="widget-list-link font-size-ms" href="#">Support</a>
+                </li>
+                <li class="widget-list-item ml-4">
+                  <a class="widget-list-link font-size-ms" href="#"
+                    >Terms &amp; Conditions</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Toolbar for handheld devices-->
+    <div class="cz-handheld-toolbar">
+      <div class="d-table table-fixed w-100">
+        <a
+          class="d-table-cell cz-handheld-toolbar-item"
+          href="account-wishlist.html"
+          ><span class="cz-handheld-toolbar-icon"
+            ><i class="czi-heart"></i></span
+          ><span class="cz-handheld-toolbar-label">Wishlist</span></a
+        ><a
+          class="d-table-cell cz-handheld-toolbar-item"
+          href="#navbarCollapse"
+          data-toggle="collapse"
+          onclick="window.scrollTo(0, 0)"
+          ><span class="cz-handheld-toolbar-icon"><i class="czi-menu"></i></span
+          ><span class="cz-handheld-toolbar-label">Menu</span></a
+        ><a class="d-table-cell cz-handheld-toolbar-item" href="shop-cart.html"
+          ><span class="cz-handheld-toolbar-icon"
+            ><i class="czi-cart"></i
+            ><span class="badge badge-primary badge-pill ml-1">4</span></span
+          ><span class="cz-handheld-toolbar-label">$265.00</span></a
+        >
+      </div>
+    </div>
+    <!-- Back To Top Button--><a class="btn-scroll-top" href="#top" data-scroll
+      ><span class="btn-scroll-top-tooltip text-muted font-size-sm mr-2"
+        >Top</span
+      ><i class="btn-scroll-top-icon czi-arrow-up"> </i
+    ></a>
+    <!-- Vendor scrits: js libraries and plugins-->
+    <script src="vendor/jquery/dist/jquery.slim.min.js"></script>
+    <script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/bs-custom-file-input/dist/bs-custom-file-input.min.js"></script>
+    <script src="vendor/simplebar/dist/simplebar.min.js"></script>
+    <script src="vendor/tiny-slider/dist/min/tiny-slider.js"></script>
+    <script src="vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <!-- Main theme script-->
+    <script src="js/theme.min.js"></script>
+  </body>
+</html>
