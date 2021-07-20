@@ -166,7 +166,7 @@ async function displayRazorpay() {
     return;
   }
 
-  const data = await fetch("http://localhost:3000/razorpay", {
+  const data = await fetch("https://amrutras.herokuapp.com/razorpay", {
     method: "POST",
   }).then((t) => t.json());
 
@@ -202,7 +202,7 @@ async function displayRazorpay() {
           alert("server error occured");
         },
       });
-      window.location.replace("http://localhost:3000/checkout-review");
+      window.location.replace("https://amrutras.herokuapp.com/checkout-review");
     },
   };
   const paymentObject = new window.Razorpay(options);

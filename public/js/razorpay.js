@@ -21,7 +21,7 @@ async function displayRazorpay() {
     return;
   }
 
-  const data = await fetch("http://localhost:3000/razorpay", {
+  const data = await fetch("https://amrutras.herokuapp.com/razorpay", {
     method: "POST",
   }).then((t) => t.json());
 
