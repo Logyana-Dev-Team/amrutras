@@ -1,4 +1,6 @@
+require("dotenv").config();
 import { data } from "jquery";
+
 function loadScript(src) {
   return new Promise((resolve) => {
     const script = document.createElement("script");
