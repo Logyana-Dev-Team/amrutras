@@ -4,12 +4,14 @@ const bodyParser = require("body-parser");
 const session = require("express-session");
 const passport = require("passport");
 const flash = require("connect-flash");
+const path = require("path");
 const router = require("./routes/routes");
 
 require("./connections/mongoose");
 
 const app = express();
 
+app.use(express.static(path.join(__dirname, "public")));
 app.use(express.static("public"));
 app.set("view engine", "ejs");
 app.use(
