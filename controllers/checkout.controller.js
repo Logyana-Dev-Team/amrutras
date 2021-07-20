@@ -1,6 +1,10 @@
 const { User, Product, Order } = require("../models/models");
 const shortid = require("shortid");
 const request = require("request");
+const token =
+  eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9
+    .eyJzdWIiOjExMzIwMzUsImlzcyI6Imh0dHBzOi8vYXBpdjIuc2hpcHJvY2tldC5pbi92MS9leHRlcm5hbC9hdXRoL2xvZ2luIiwiaWF0IjoxNjI2NzU4MDAyLCJleHAiOjE2Mjc2MjIwMDIsIm5iZiI6MTYyNjc1ODAwMiwianRpIjoiM3A2aHphR2htNGN6VG1MYiJ9
+    .fLHplCiw4OeGXEsPhaW88O0Dtq6B2XoLS8TRTTiwHuo;
 
 module.exports = {
   payment: async function (req, res) {
@@ -180,7 +184,7 @@ module.exports = {
       headers: {
         "Content-Type": "application/json",
         Authorization:
-          "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjExNTk1NDksImlzcyI6Imh0dHBzOi8vYXBpdjIuc2hpcHJvY2tldC5pbi92MS9leHRlcm5hbC9hdXRoL2xvZ2luIiwiaWF0IjoxNjExMjk5NjUxLCJleHAiOjE2MTIxNjM2NTEsIm5iZiI6MTYxMTI5OTY1MSwianRpIjoibER6NVdGWFRQWTZ1RG9vbCJ9.Oylime4H9r69f_UKMOtpW_7NOMBwzQ5lJz4_7MsiRqI",
+          "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjExMzIwMzUsImlzcyI6Imh0dHBzOi8vYXBpdjIuc2hpcHJvY2tldC5pbi92MS9leHRlcm5hbC9hdXRoL2xvZ2luIiwiaWF0IjoxNjI2NzU4MDAyLCJleHAiOjE2Mjc2MjIwMDIsIm5iZiI6MTYyNjc1ODAwMiwianRpIjoiM3A2aHphR2htNGN6VG1MYiJ9.fLHplCiw4OeGXEsPhaW88O0Dtq6B2XoLS8TRTTiwHuo",
       },
       body: JSON.stringify({
         order_id: shortid.generate(),
@@ -211,7 +215,7 @@ module.exports = {
         shipping_phone: "",
         order_items: [
           {
-            name: "Handmade Soaps",
+            name: "AmrutRas",
             sku: "soap123",
             units: totalQuantity,
             selling_price: "0",
@@ -271,7 +275,7 @@ module.exports = {
         headers: {
           "Content-Type": "application/json",
           Authorization:
-            "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjExNTk1NDksImlzcyI6Imh0dHBzOi8vYXBpdjIuc2hpcHJvY2tldC5pbi92MS9leHRlcm5hbC9hdXRoL2xvZ2luIiwiaWF0IjoxNjExMjk5NjUxLCJleHAiOjE2MTIxNjM2NTEsIm5iZiI6MTYxMTI5OTY1MSwianRpIjoibER6NVdGWFRQWTZ1RG9vbCJ9.Oylime4H9r69f_UKMOtpW_7NOMBwzQ5lJz4_7MsiRqI",
+            "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjExMzIwMzUsImlzcyI6Imh0dHBzOi8vYXBpdjIuc2hpcHJvY2tldC5pbi92MS9leHRlcm5hbC9hdXRoL2xvZ2luIiwiaWF0IjoxNjI2NzU4MDAyLCJleHAiOjE2Mjc2MjIwMDIsIm5iZiI6MTYyNjc1ODAwMiwianRpIjoiM3A2aHphR2htNGN6VG1MYiJ9.fLHplCiw4OeGXEsPhaW88O0Dtq6B2XoLS8TRTTiwHuo",
         },
       };
       request(options, function (error, response) {
