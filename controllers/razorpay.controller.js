@@ -1,5 +1,6 @@
 const Razorpay = require("razorpay");
 const shortid = require("shortid");
+const User = require("../models/User");
 
 const razorpay = new Razorpay({
   key_id: "rzp_test_xqlVy0PNG79LQH",
