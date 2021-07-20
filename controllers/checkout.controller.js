@@ -1,10 +1,6 @@
 const { User, Product, Order } = require("../models/models");
 const shortid = require("shortid");
 const request = require("request");
-const token =
-  eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9
-    .eyJzdWIiOjExMzIwMzUsImlzcyI6Imh0dHBzOi8vYXBpdjIuc2hpcHJvY2tldC5pbi92MS9leHRlcm5hbC9hdXRoL2xvZ2luIiwiaWF0IjoxNjI2NzU4MDAyLCJleHAiOjE2Mjc2MjIwMDIsIm5iZiI6MTYyNjc1ODAwMiwianRpIjoiM3A2aHphR2htNGN6VG1MYiJ9
-    .fLHplCiw4OeGXEsPhaW88O0Dtq6B2XoLS8TRTTiwHuo;
 
 module.exports = {
   payment: async function (req, res) {
