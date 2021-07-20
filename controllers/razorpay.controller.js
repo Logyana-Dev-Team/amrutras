@@ -32,7 +32,7 @@ module.exports = {
   },
 
   razorpay: async (req, res) => {
-    const user = await User.findById(req.body.id, {});
+    const user = await User.findById(req.user.id, {});
     var total = user.totalPrice.reduce((acc, item) => {
       return item;
     }, 0);
