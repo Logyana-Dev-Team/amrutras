@@ -3,8 +3,8 @@ const shortid = require("shortid");
 const User = require("../models/User");
 
 const razorpay = new Razorpay({
-  key_id: "rzp_test_nxnL1FFdKlYCx1",
-  key_secret: "zU5UUGS3omE7q20SQYOmNY3z",
+  key_id: process.env.RZP_KEY,
+  key_secret: process.env.RZP_SECRET,
 });
 
 module.exports = {
