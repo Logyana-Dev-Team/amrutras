@@ -28,7 +28,7 @@ async function displayRazorpay() {
   console.log(data);
 
   const options = {
-    key: "rzp_test_oQDj1SlU1kKC5P",
+    key: "rzp_test_nxnL1FFdKlYCx1",
     currency: data.currency,
     amount: data.amount.toString(),
     order_id: data.id,
