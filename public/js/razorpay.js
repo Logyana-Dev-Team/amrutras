@@ -1,6 +1,4 @@
-require("dotenv").config();
 import { data } from "jquery";
-
 function loadScript(src) {
   return new Promise((resolve) => {
     const script = document.createElement("script");
@@ -30,7 +28,7 @@ async function displayRazorpay() {
   console.log(data);
 
   const options = {
-    key: process.env.RZP_KEY,
+    key: "rzp_test_OtYW2ocs8dqDOS",
     currency: data.currency,
     amount: data.amount.toString(),
     order_id: data.id,
