@@ -9,7 +9,7 @@ const razorpay = new Razorpay({
 
 module.exports = {
   verification: function (req, res) {
-    const secret = "12345678";
+    const secret = "amrutras";
 
     console.log(req.body);
 
